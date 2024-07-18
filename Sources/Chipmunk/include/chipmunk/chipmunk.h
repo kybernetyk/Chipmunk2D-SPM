@@ -25,6 +25,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define NDEBUG 1
+
 #ifndef alloca
 	#ifdef _WIN32
 		#include <malloc.h>
