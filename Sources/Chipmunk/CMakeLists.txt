@@ -1,3 +1,5 @@
+add_compile_definitions(NDEBUG=1)
+
 file(GLOB chipmunk_source_files "*.c")
 file(GLOB chipmunk_public_header "${chipmunk_SOURCE_DIR}/include/chipmunk/*.h")
 
@@ -9,8 +11,6 @@ set(CHIPMUNK_VERSION_MINOR 0)
 set(CHIPMUNK_VERSION_PATCH 3)
 set(CHIPMUNK_VERSION "${CHIPMUNK_VERSION_MAJOR}.${CHIPMUNK_VERSION_MINOR}.${CHIPMUNK_VERSION_PATCH}")
 message("Configuring Chipmunk2D version ${CHIPMUNK_VERSION}")
-
-add_compile_definitions(NDEBUG)
 
 if(BUILD_SHARED)
   add_library(chipmunk SHARED
