@@ -1,5 +1,3 @@
-add_compile_definitions(NDEBUG=1)
-
 file(GLOB chipmunk_source_files "*.c")
 file(GLOB chipmunk_public_header "${chipmunk_SOURCE_DIR}/include/chipmunk/*.h")
 
