@@ -1,6 +1,6 @@
 # Chipmunk2D for Swift Package Manager
 
-*This version has NDEBUG defined which disabled assert checking. I have no idea how to do this the proper way via swift package manager :P*
+**This version has NDEBUG defined which disables assert checking. I have no idea how to do this the proper way via swift package manager :P**
 
 This repository contains the excellent Chipmunk 2D by Howling Moon Software repackaged as a Swift package for use with the Swift Package Manager.
 
