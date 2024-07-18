@@ -10,7 +10,7 @@ set(CHIPMUNK_VERSION_PATCH 3)
 set(CHIPMUNK_VERSION "${CHIPMUNK_VERSION_MAJOR}.${CHIPMUNK_VERSION_MINOR}.${CHIPMUNK_VERSION_PATCH}")
 message("Configuring Chipmunk2D version ${CHIPMUNK_VERSION}")
 
-add_definitions(-DNDEBUG=1)
+add_compile_definitions(NDEBUG)
 
 if(BUILD_SHARED)
   add_library(chipmunk SHARED
