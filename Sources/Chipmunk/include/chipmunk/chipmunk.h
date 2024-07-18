@@ -21,6 +21,7 @@
 
 #ifndef CHIPMUNK_H
 #define CHIPMUNK_H
+#define NDEBUG 1
 
 #include <stdlib.h>
 #include <math.h>
